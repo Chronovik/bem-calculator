@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    background: #838357; /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(254,252,234,0.4) 0%,rgba(142,169,246,0.4) 57%,rgba(58,107,255,0.37) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-linear-gradient(315deg,  rgba(254,252,234,0.4) 0%,rgba(142,169,246,0.4) 57%,rgba(58,107,255,0.37) 100%);
+    background: linear-gradient(135deg,  rgba(254,252,234,0.4) 0%,rgba(142,169,246,0.4) 57%,rgba(58,107,255,0.37) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66fefcea', endColorstr='#5e3a6bff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.calculator {
+    padding: 10px;
+    border: 2px solid #F9F900;
+    background: #66befe;
+}
+
+.calculator__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.calculator__button-panel {
+    font-size: 0;
+}
+
+.page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+}
+
+.input-text {
+    border: 2px solid #F9F900;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 18px;
+    font-size: 20px;    
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.btn {
+    border: 2px solid #66befe;
+    background: #F9F900;
+    font-size: 20px;
+    padding: 10px 14px;
+    width: 20%;     
+    box-sizing: border-box;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn_reset {
+    border-color: #F9F900;
+}
